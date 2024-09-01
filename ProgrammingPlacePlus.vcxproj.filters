@@ -18,8 +18,100 @@
     <ClCompile Include="ProgrammingPlacePlus.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Section07.cpp">
+    <ClCompile Include="SectionA07.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="SectionA08Sample.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA08.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA11.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionB05.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA12.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA12Student.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="memo.txt">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA14.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA14-2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA16.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA17.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CSection22.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionC22.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26_1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26_2_1.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26_3.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26_4.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionA26_2_2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SectionA11-1.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA11-2.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA12Student.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ppp_perform.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA14.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA26_1.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA26_3.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA26_2_1.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionA26_2_2.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

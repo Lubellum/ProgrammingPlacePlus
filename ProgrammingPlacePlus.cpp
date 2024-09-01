@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "ppp_perform.h"
+
+void SectionA26();
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    //PPP_CHECK_PERFORM_BEGIN(1000);
+    SectionA26();
+    //PPP_CHECK_PERFORM_END("func");
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー

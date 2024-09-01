@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,8 +127,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="2.cpp" />
+    <ClCompile Include="CSection22.cpp" />
+    <ClCompile Include="memo.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ProgrammingPlacePlus.cpp" />
-    <ClCompile Include="Section07.cpp" />
+    <ClCompile Include="SectionA07.cpp" />
+    <ClCompile Include="SectionA08.cpp" />
+    <ClCompile Include="SectionA08Sample.cpp" />
+    <ClCompile Include="SectionA11.cpp" />
+    <ClCompile Include="SectionA12.cpp" />
+    <ClCompile Include="SectionA12Student.cpp" />
+    <ClCompile Include="SectionA14-2.cpp" />
+    <ClCompile Include="SectionA14.cpp" />
+    <ClCompile Include="SectionA16.cpp" />
+    <ClCompile Include="SectionA17.cpp" />
+    <ClCompile Include="SectionA26.cpp" />
+    <ClCompile Include="SectionA26_1.cpp" />
+    <ClCompile Include="SectionA26_2_1.cpp" />
+    <ClCompile Include="SectionA26_2_2.cpp" />
+    <ClCompile Include="SectionA26_3.cpp" />
+    <ClCompile Include="SectionA26_4.cpp" />
+    <ClCompile Include="SectionB05.cpp" />
+    <ClCompile Include="SectionC22.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ppp_perform.h" />
+    <ClInclude Include="SectionA26_2_2.h" />
+    <ClInclude Include="SectionA26_3.h" />
+    <ClInclude Include="SectionA11-1.h" />
+    <ClInclude Include="SectionA11-2.h" />
+    <ClInclude Include="SectionA12Student.h" />
+    <ClInclude Include="SectionA14.h" />
+    <ClInclude Include="SectionA26_1.h" />
+    <ClInclude Include="SectionA26_2_1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

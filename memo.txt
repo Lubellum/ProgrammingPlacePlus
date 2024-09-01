@@ -1,0 +1,54 @@
+﻿// constのバリエーション
+
+// 1 変数に対するconst
+const int num = 0;
+const int* pNum = &num; // 指し示した先の値を変更することができない
+int numnum = 100;
+
+const int numnum2 = 50;
+int* pNum2 = nullptr; // 指し示した先の値、アドレスそのものを変更することができる
+
+int* const pNum3 = &numnum;
+
+const int* const pNum4 = &numnum;
+
+void sample()
+{
+    (*pNum)++;
+    numnum++;
+    pNum = &numnum;
+    (*pNum)++;
+    //numnum2++;
+    pNum2 = &numnum2;
+    pNum3 = nullptr;
+    pNum4 = nullptr;
+    (*pNum4)++;
+}
+
+// 2 引数に対するconst
+void SetScore(const int aScore)
+{
+    aScore += 10; // ✖
+}
+
+// 3 戻り値に対するconst
+const int* 以外のconstは無意味！！(文法上かけちゃうけど。。。)
+
+// 4 メンバ関数に対するconst
+// 構造体かクラス　コンテキストが伴うもの。 メンバ変数に対する書き換えが不可
+class CSectionA12Student
+{
+public:
+
+	int  GetScore() const;
+
+private:
+
+	int mScore;
+};
+
+int CSectionA12Student::GetScore() const
+{
+    mScore++; // ✖
+    return mScore;
+}
